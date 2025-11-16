@@ -1,0 +1,24 @@
+.list {
+  max-width: 900px;
+  margin: 2rem;
+  padding: 2rem;
+  border: 4px solid black;
+  background: white;
+}
+
+.guest-layout {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  column-gap: 4rem;
+  margin-top: 2rem;
+}
+
+.guest-names h2,
+.details h2 {
+  margin-bottom: 1rem;
+}
+
+.guest-names p {
+  margin: 0.25 rem;
+  cursor: pointer;
+}
